@@ -1,0 +1,788 @@
+
+@font-face {
+	font-family: 'Walkway Bold';
+	src: url('../fuentes/Walkway Bold.eot');
+	src: local('☺'), url('../fuentes/Walkway Bold.woff') format('woff'), url('../fuentes/Walkway Bold.ttf') format('truetype'), url('../fuentes/Walkway Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Walkway Black';
+	src: url('../fuentes/Walkway Black.eot');
+	src: local('☺'), url('../fuentes/Walkway Black.woff') format('woff'), url('../fuentes/Walkway Black.ttf') format('truetype'), url('../fuentes/Walkway Black.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.header{
+	position: fixed;
+	top: 0px;
+   display: block;
+   width: 100%;
+   height: 165px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: white;
+   z-index: 1000;  
+}        
+
+
+.h1{ height: 12px; width: 35%; background-color: #4e5b64; display: inline-block; border: none; position: relative; top: 0px; float:left;}
+.h2{ height: 12px; width: 15%; background-color: #82a82a; display: inline-block; border: none; position: relative; top: 0px; float:left;}
+.h3{ height: 12px; width: 25%; background-color: #00636c; display: inline-block; border: none; position: relative; top: 0px; float:left;}
+.h4{ height: 12px; width: 25%; background-color: #82a82a; display: inline-block; border: none; position: relative; top: 0px; float:left;}
+
+.menu-wrapper{
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+   height: 130px;lfelipeqn@
+   width: 800px;
+   min-width: 800px;
+   max-width: 800px;
+   z-index: 999;
+}
+
+.menu{
+	display: inline-block;
+   width: 50%;
+   height: 130px;
+   z-index: 999;
+   float: left;   
+}
+
+.menu-opciones{
+	display: inline-block;
+	margin-top: 10px;	
+	width: 110px;
+	height: 120px;
+   float: right;
+   z-index: 999;  
+}
+
+.menu-opciones div{	 
+	 font-family: 'Walkway Bold';   
+    text-align: left;
+    font-size: 12pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: gray;
+    z-index: 1000;
+    padding-left: 10px;
+    overflow: hidden;
+    width: 380px;
+    background-image: url('../images/fondo-menu.png');
+	 background-repeat: no-repeat;
+	 background-position: 390px;
+}
+
+.menu-opciones div:hover{
+	 cursor: pointer;
+}
+
+.cuerpo{    
+	display: inline;
+   margin-left: auto;
+   margin-right: auto;
+   position: fixed;    
+   width: 100%;
+   height: 67%;
+   margin-top: 144px;
+	overflow: scroll;
+	overflow-x: hidden;
+	-ms-overflow-style: none;	
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.cuerpo div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider{
+    display: block;
+    width: 800px;
+    /*border:  red solid 2px;*/
+    margin: auto;
+}
+
+.titulo{
+	 font-family: 'Walkway Black';
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    font-size: 16pt;
+    color: #82a82a;
+}
+
+.subtitulo{
+	font-family	: 'Walkway Bold';
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    font-size: 14pt;
+    color: #4e5b64;
+    font-weight: bold;
+}
+
+.about{
+	height: 350px; 
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	background-repeat: no-repeat;
+	background-image: url('../images/about.png');
+	background-position: 0% 65%;
+	background-color: #FFF;
+	padding-top: 3%;
+}
+
+.about div{    
+    width: 85%;
+}
+
+.workshop{
+	width: 100%;
+}
+
+.fondo-nube{
+	width: 100%;
+	background-repeat: no-repeat;
+	background-image: url('../images/nubes.png');
+	float: left;
+}
+
+.workshop-wrapper{
+	height: 250px !important; 
+	background-repeat: no-repeat;
+	background-image: url('../images/workshop.png');
+	background-size: contain; 
+	padding-top: 4%;
+	width: 800px;
+}
+
+.workshop-wrapper div{
+	width: 85%;
+}
+
+.portafolio{	
+	height: 500px; 
+	width: 800px;
+	background-repeat: no-repeat;
+	background-image: url('../images/fondo-workshop1.png');  
+}
+
+.parque{	
+	height: 180px; 
+	width: 800px;
+	background-repeat: no-repeat;
+	background-image: url('../images/fondo-workshop.png');
+	background-position: bottom center;  
+}
+
+.twitter{
+	height: 290px;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	background-image: url('../images/fondo-noticias.png');
+	background-position: center top;
+	background-color: #b5beb8;
+}
+
+.twitter-wrapper{
+	height: 290px;
+	width: 800px;
+	min-width: 800px;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	background-image: url('../images/fondo-noticias.png');
+	background-position: center top;
+	background-color: #b5beb8;
+}
+
+.titulo-twitter{
+	margin-top: 2%;
+	font-family: 'Walkway Black';
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   width: 100%;
+   font-size: 30pt;
+   color: #101728;
+}
+
+.subtitulo-twitter{
+	font-family: 'Walkway Bold';
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 20%;
+    font-size: 11pt;
+    color: #101728;
+}
+
+.subtitulo-twitter div{
+	display: list-item;
+	list-style-image: url('../images/twitter.png');	
+}
+
+.tweet div{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	background-repeat: no-repeat;
+	height: 65px;
+	background-image: url('../images/tweet.png');
+}
+
+.tweet span{
+	font-family: 'Walkway Black';
+	font-size: 11pt;
+	color: #4e5b64;
+	position: relative;
+	float: right;
+	top: -15px;
+	right: 0%;
+}
+
+.tweet h3{
+	font-family: 'Walkway Bold';
+	font-size: 11pt;
+	color: #FFFFFF;	
+	height: 10px;
+	height: 5px;
+}
+
+.tweet div p{
+	font-family: 'Walkway Bold';
+	color: 70706e;
+	font-size: 11pt;
+	width: 90%;
+	padding-top: 16px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+}
+
+.fresco{
+	height: 280px; 
+	margin-top: 2%;
+	border-bottom: 1px gray dotted;
+	width: 800px;
+}
+
+.fresco div{
+	padding-left: 2%;
+}
+
+#idea{
+	vertical-align: middle;
+	display: table-cell;
+	width: 50%;	
+	padding-bottom: 9%;
+	position: relative;
+	left: 150px;
+}
+
+#simio{
+	display: table-cell;
+}
+
+.seccion{
+	font-family: 'Walkway Bold';
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    width: 100%;
+    font-size: 12pt;
+    color: #70706e;
+}
+
+.small{
+	width: 85% !important;
+}
+
+.studio{
+	background-color: #F6F6F6; 
+	height: 427px;	
+	min-height: 427px;
+	max-height: 427px;
+	padding-top: 1.5%;
+	position: relative;
+	z-index: 999;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;	
+	background-image: url('../images/studio-white.png');
+	background-repeat: no-repeat;
+	background-size: contain;  	  
+	background-position: bottom; 
+}
+
+.studio-wraper{ 
+	height: 427px;	
+	min-height: 427px;
+	max-height: 427px;
+	padding-top: 1.5%;
+	position: relative;
+	z-index: 999;
+	width: 800px;
+	min-width: 800px;
+	max-width: 800px;	 
+}
+
+.studio-contenido{
+	width: 800px; !important;
+	height: 140px;
+	min-height: 140px;
+	max-height: 140px;
+	background-image: url('../images/studio-tit.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 0% 0%; 
+	position: relative !important;
+	top: 0px;
+	left: 0px;
+	display: block;	
+	z-index: 999;
+}
+
+.tabla-studio{
+	width: 800px !important;
+	height: 250px;
+	min-height: 250px;
+	max-height: 250px;
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 998;
+	top: 0;
+	left: 0; 
+}
+
+.tabla-studio div{
+	height: 70%;
+	width: 100%;	
+}
+
+.tabla-titulo{
+	font-family: 'Walkway Bold';
+	width: 60px !important;
+	display: table-cell;
+	color: #FFF;
+	font-size: 24pt;
+}
+
+.grafico{
+	position: relative;
+	top: 15px;
+	left: 100px;
+}
+
+.grafico span{
+	color:#4E5B64;
+}
+
+
+.industrial{
+	position: relative;
+	top: 110px;
+	left: 0px;
+}
+
+.industrial span{
+	color: #B5BEB8;
+}
+
+.medios{
+	position: relative;
+	top: 0px;
+	right: 180px;
+	float: right;
+}
+
+.medios span{
+	font-weight: bold;
+}
+
+.tabla-lista{
+	font-family: 'Walkway Bold';
+	color: #70706e;
+	font-size: 14pt;
+	width: 150px !important;
+}
+
+.tabla-lista li{
+	list-style-type: none;
+}
+
+.ecp{
+	position: relative;
+	top: -65px;
+	left: 220px;
+	float: left;
+}
+
+.mse{
+	position: relative;
+	top: 35px;
+	left: 70px;
+	float: left;
+}
+
+.wamnpc{
+	position: relative;
+	top: -40px;
+	right: 190px;
+	float: right;
+}
+
+.imagenes{
+	position: relative;
+	top: -50px;
+	right: -18px;
+}
+
+.imagenes li{
+	height: 70px;
+}
+
+
+.footer-wrapper{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 75px;
+	min-height: 75px;
+	max-height: 75px;
+	background-color: #4e5b64;
+}
+	
+.footer{
+	position: relative;
+	top: 0px;
+    display: block;     
+    bottom: 0px;    
+    min-width: 800px;
+    max-width: 800px;
+	 width: 800px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4e5b64;    
+}
+
+.contacto{
+	position: relative;
+	top: 9px;
+	left: 0px;
+	display: table-cell;
+	width: auto;
+	background-image: url('../images/telefono.png');
+	background-repeat: no-repeat;
+	background-position: 0% 55%;
+	padding-left: 30px;
+	margin-left: 15px;
+	font-family: 'Walkway Bold';
+	color: #FFF;
+}
+
+.contacto span{
+	color: white;
+	font-weight: bold;
+	font-size: 17pt;
+}
+
+.correo{
+	display: table-cell;
+	position: relative;
+	top: -35px;
+	display: block;
+	font-family: 'Walkway Bold';
+	color: #FFF;
+	float: right;
+	font-size: 10pt;
+}
+
+.correo span{
+	color: white;
+	font-weight: bold;
+	font-size: 21pt;
+}
+
+.redes{
+	display: table-cell;
+	width: 320px;
+	position: relative;
+	left: 50px;
+	top: 10px;
+}
+
+.redes div{
+	display: block;
+}
+
+.redes-slogan{
+	text-align: center;
+	font-family: 'Walkway Bold';
+	color: #FFF;
+	opacity: 0.5;
+	font-size: 11pt;
+}
+
+.wrapper{
+	display: inline !important;
+	margin-left: 50px;
+}
+
+.barra{
+	display: table-cell;
+	width: 1px;
+	height: 45px;
+	background-image: url('../images/barra.png');
+	position: relative;
+	top: 10px;
+	left: 50px;
+	opacity: 0.5;
+}
+
+.portafolio-wrapper{
+	position: relative;	
+	width: 480px;
+	height: 430px;
+}
+
+.bloque{
+	display: block;
+	width: 480px;
+	height: 106px;
+}
+
+.numero{
+	font-family: 'Walkway Black';
+	font-size: 50pt;
+	width: 118px;
+	text-align: center;
+	float: left; 
+}
+
+.texto{
+	font-family: 'Walkway Bold';
+	font-size: 10pt;
+	width: 118px;
+	text-align: center;
+}
+
+.texto-uno{
+	position: relative;
+	left: -120px;
+	top: 70px;
+	float: left;
+	color: #252a17;
+}
+
+.texto-dos{
+	position: relative;
+	left: 0px;
+	top: 20px;
+	float: left;
+	color: #b5beb8;
+}
+
+.texto-tres{
+	position: relative;
+	left: -235px;
+	top: 70px;
+	float: left;
+}
+
+.texto-cuatro{
+	position: relative;
+	left: 57px;
+	top: 35px;
+	color: #82a82a;
+}
+
+.mas{
+	position: relative;
+	top: 30px;
+}
+
+.web{
+	position: relative;
+	float: right;
+	right: 100px;
+	top: 0px;
+	font-family: 'Walkway Bold';
+	font-size: 22pt;
+	color: white;
+}
+
+.web span{
+	font-family: 'Walkway Bold';
+	font-size: 20pt;
+	font-weight: bold;
+	color: #1c1c1a;
+	opacity: 0.5;
+}
+
+.texto2{
+	position: relative;
+	right: 0px;
+	top: 5px;
+	float: right;
+	color: #FFF;
+	font-family: 'Walkway Bold';
+	font-size: 10pt;
+	width: 350px;
+	text-align: center;
+}
+
+.gray-at{
+	position: relative;
+	top: 30px;
+	left: 35px; 
+}
+
+.uno{
+	position: relative;
+	left: 0px;
+	top: 10px;
+}
+
+.dos{
+	position: relative; 
+	color: #b5beb8;
+	left: 120px;
+	top: -40px;
+}
+
+.tres{
+	position: relative; 
+	left: -120px;
+	top: 10px;
+	float: left;
+}
+
+.cuatro{
+	position: relative; 
+	left: 240px;
+	top: -25px;
+	float: left;
+	color: #82a82a;
+}
+
+.plus{
+	position: relative;
+	top: 35px;
+	left: 160px;
+}
+
+.design{
+	font-family: 'Walkway Black';
+	font-size: 20pt;
+	color: #FFF;
+	position: relative;
+	left: -220px;
+	top: 25px;
+}
+
+.branding{
+	font-family: 'Walkway Bold';
+	font-size: 20pt;
+	color: #FFF;
+	position: relative;
+	right: 40px;
+	top: -55px;
+	float: right;
+}
+
+.pause{
+	position: relative;
+	top: -25px;
+	left: 50px;
+}
+
+.lito{
+	position: relative;
+	color: #FFF;
+	width: 250px;
+	top: -25px;
+	left: 130px;
+}
+
+.graidn{
+	position: relative;
+	left: -90px;
+	top: 25px;
+	color: #FFF;
+}
+
+.pop{
+	font-family: 'Walkway Black';
+	font-size: 25pt;
+	color: #FFF;
+	position: relative;
+	right: 10px;
+	top: -25px;
+	float: right;
+}
+
+.merca{
+	position: relative;
+	color: #FFF;
+	float: right;
+	right: -90px;
+	top: 10px;
+}
+
+.exhib{
+	color: #1c1c1a;
+	opacity: 0.5;
+	font-size: 14pt;
+	width: 200px;
+	position: relative;
+	top:-70px;
+	left: 132px;
+}
+
+.stand{
+	color: #FFF;
+	font-size: 14pt;
+	width: 200px;
+	position: relative;
+	top:-80px;
+	left: 155px;
+}
+
+.comer{
+	color: #1c1c1a;
+	opacity: 0.5;
+	font-size: 10pt;
+	width: 200px;
+	position: relative;
+	top:-40px;
+	left: 165px;
+}
+
+.play{
+	position: relative;
+	top: -10px;
+	left: 45px;
+}
